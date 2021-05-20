@@ -3,7 +3,7 @@
 &emsp;&emsp;The pixel level fusion of multi-source images based on the pytorch framework includes the reproduction of multiple networks.  
 &emsp;&emsp;  详细请访问 👉 https://blog.csdn.net/qq_36449741/article/details/104406931  
   
-![results](https://github.com/ChangeZH/Pytorch_Image_Fusion/blob/main/img/results.jpg)
+![results](https://github.com/ChangeZH/Pytorch_Image_Fusion/blob/main/test/results.jpg)
 
 ## 环境要求 / Environmental Requirements  
   
@@ -97,8 +97,8 @@ PROJECT:
   weight_path: ''
 ```  
 &emsp;&emsp;可运行  ` tensorboard --logdir= ./work_dirs/VIF_Net_Image_Fusion/ `  进行训练可视化。再次训练后最好删除之前的  ` events `  文件。  
-![SCALARS](https://github.com/ChangeZH/Pytorch_Image_Fusion/blob/main/img/TensorBoard_0.png)
-![IMAGES](https://github.com/ChangeZH/Pytorch_Image_Fusion/blob/main/img/TensorBoard_1.png)  
+![SCALARS](https://github.com/ChangeZH/Pytorch_Image_Fusion/blob/main/work_dirs/TensorBoard_0.png)
+![IMAGES](https://github.com/ChangeZH/Pytorch_Image_Fusion/blob/main/work_dirs/TensorBoard_1.png)  
 &emsp;&emsp;上图中每三行为一组，前两行为输入数据，第三行为融合结果。  
   
 ### 测试 / Testing  
@@ -106,8 +106,8 @@ PROJECT:
 
 ## 预训练模型 / Pre-training Model
  - [x] ⚡ VIF_Net 👉   链接：https://pan.baidu.com/s/1avjiuNTovsoFmUWd5aPpzg 提取码：PIF2  
- - [ ] ⚡ DenseFuse 👉   
+ - [x] ⚡ DenseFuse 👉   链接：https://pan.baidu.com/s/1MzlbMhIvrFB7HxPAWdCdmQ 提取码：PIF3  
  
 ## 计划中 / To Do  
  - [x] VIF_Net 👉 https://blog.csdn.net/qq_36449741/article/details/104562999  
- - [ ] DenseFuse 👉 https://blog.csdn.net/qq_36449741/article/details/104776319  
+ - [x] DenseFuse 👉 https://blog.csdn.net/qq_36449741/article/details/104776319  
