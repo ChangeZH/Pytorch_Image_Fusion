@@ -88,6 +88,12 @@ MODEL: # 模型参数
 ### 训练 / Training  
 &emsp;&emsp;运行  ` python run.py --train `  进行训练。训练的模型权重会保存再指定的路径下。  
 
+#### 训练DenseFuse  
+&emsp;&emsp;运行  ` python run.py --train --config ./config/DenseFuse.yaml`  进行训练。训练的模型权重会保存再指定的路径下。  
+
+#### 训练VIF_Net   
+&emsp;&emsp;运行  ` python run.py --train --config ./config/VIF_Net.yaml`  进行训练。训练的模型权重会保存再指定的路径下。
+
 #### tensorboardX进行训练可视化  
 &emsp;&emsp;运行  ` tensorboard --logdir= XXX `  进行训练可视化。将  ` XXX `  替换为模型储存的路径。例如，config中有如下参数：  
 ```python
